@@ -1,0 +1,37 @@
+body {
+    background-color: #33c1dd;
+    align-items: center;
+    }
+#Quizz {
+    height: 300px;
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 2fr;
+    align-items: center;
+    }
+#reponses {
+    display: grid;
+    background-color: white;
+    grid-template-columns: 1fr 1fr;
+    height: 100%;
+    align-content: stretch;
+    }
+#question {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    }
+#reponses > div {
+    text-align: center;
+    border: 1mm ridge #32a1ce;
+    padding: auto;
+    }
+
+#green {
+    background-color: green;
+}
+.red {
+    background-color: red;
+}
